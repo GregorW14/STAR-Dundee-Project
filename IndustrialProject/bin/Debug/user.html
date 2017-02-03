@@ -1,0 +1,227 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>STAR Gazer User Manual</title>
+<body>
+
+<div align="center" id="Home"><h1>STAR Gazer User Manual<br></h1></div>
+
+<div align="left">
+<h2>Contents</h2>
+<ol>
+		<li type="1"><a href="#Intro">Introduction</a></li>
+		<li type="i"><a href="#GetStart">Getting Started</a></li>
+		<li><a href="#Parse">Parsing Files</a>
+			<ul>
+				<li><a href="#Opening">Opening a File</a></li>
+				<li><a href="#Compare">Comparing Files</a></li>
+				<li><a href="#FullPacket">View Full Packet Details</a></li>
+				<li><a href="#FullFile">View Full File Details</a></li>
+				<li><a href="#ChangeVis">Change Data Visual</a></li>
+				<li><a href="#ExportVis">Export a Visualisation</a></li>
+				<li><a href="#ExitSoft">Exit Software</a></li>				
+			</ul>		
+		</li>
+		<li><a href="#DataBits">Data Bits</a></li>
+		<li><a href="#Shortkeys">Shortcuts</a></li>
+		
+</ol>
+</div>
+</head>
+
+<h2 id="Intro">About STAR Gazer</h2>
+<p>The STAR Recorder Data Analyser (STAR Gazer/Observer) is a tool which receives data files 
+from the Star Recorder and analyses the data to pinpoint and highlight errors within the data.<br><br>
+as a request to improve upon the tools STAR Dundee had developed themselves. 
+The software was developed as part of a university project for STAR Dundee 
+It was written mostly in C# with some JavaScript elements. </p>
+
+<br>
+<br>
+<br>
+<h2 id="GetStart"> Getting Started </h2>
+
+<p>To get started with STAR Gazer, first you must download the 
+folder to a directory on your computer. Once that it does, you must 
+navigate to that folder and then follow the file path bin > 
+Release and click the IndustrialProject.exe 
+to start the software which will present you with a welcome screen (1.1).</p>
+
+<img src="images/1.1.png" alt="Getting Started" style="width:700px;height:400px;">
+<p><font size="1"> 1.1 - Welcome Page </font></p>
+<br><br><br>
+<div align ="left"><h2 id="Parse"> Parsing Files </h2></div>
+
+<h3 id="Opening">Opening a File </h3>
+
+<p>To open a file in STAR Gazer, select File from the menu strip 
+at the top of the screen. From here, select the open option and 
+browse to your file location. Alternatively, use the Ctrl+O 
+shortcut key to quickly open the file browser.<br></p>
+
+<p>You can also open an explorer window containing 
+your file(s) and drag them into the window.<br></p>
+
+<p>To open more than one file, simple repeat the process above.
+(Note; Multiple files from the same recorder port cannot be 
+added at the same time).</p>
+
+<img src="images/1.2.png" alt="Opening a File" style="width:700px;height:400px;">
+<p><font size="1"> 1.2 - Opening a file </font></p>
+<br><br><br>
+
+
+<h3 id="Compare">Comparing Files</h3>
+<p>To compare files in Star Gazer, open multiple files in 
+the software and then select the tab labelled “Overview”. 
+As files are added and removed, the overview page will adjust itself. </p>
+
+<img src="images/1.3.png" alt="Comparing Files" style="width:700px;height:400px;">
+<p><font size="1"> 1.3 - Comparing files </font></p>
+<br><br><br>
+
+
+<h3 id="FullPacket">View Full Packet Details</h3>
+<p>To view an entire packet from a file, first load a file into the software. 
+Once the file is loaded in, navigate to its tab (if not done so automatically) 
+and select any packet from the packet list. When a packet is selected 
+in this list, its full details and breakdown will be displayed within the 
+packet contents box.</p>
+
+<img src="images/1.4.png" alt="View Packet Details" style="width:700px;height:400px;">
+<p><font size="1"> 1.4 - Viewing Packet Details </font></p>
+<br><br><br>
+
+
+<h3 id="FullFile">View Full File Details</h3>
+<p>To view the details on any given file, load a file into the software. 
+Once the file is loaded, navigate to the files tab. An overview of statistics 
+from the file will be displayed at the top under “Details”.</p>
+<img src="images/1.5.png" alt="View full file" style="width:700px;height:400px;">
+<p><font size="1"> 1.5 - Viewing Full File </font></p>
+<br><br><br>
+
+
+<h3 id="ChangeVis">Change Data Visual</h3>
+<p>To change which data is displayed visually after a file is loaded, 
+navigate to the files tab. Once on the tab, click the View menu strip 
+item and select the data you wish to see. </p>
+<p>(Note; This can also be done on the overview tab. However if more 
+than one file is loaded, the visuals will contain data from 
+multiple files comparatively).</p>
+<img src="images/1.6.png" alt="Changing Visualisation" style="width:700px;height:400px;">
+<p><font size="1"> 1.6 - Changing the Visualisation </font></p>
+<br><br><br>
+
+
+<h3 id="ExportVis">Export a Visualisation</h3>
+<p>To save a visualisation, load a file first and then select the data 
+visual you wish to export. Once selected, click the Chart Context Menu 
+which is to the top right of the visual. Once selected, choose your 
+appropriate export from the drop down menu. Once an option is selected, 
+browse to where you wish it to be saved and click save.</p>
+<p>For printing a visual, follow the above steps but select print graph, 
+then select your connected printer.</p>
+<img src="images/1.7.png" alt="Exporting Graphs" style="width:700px;height:400px;">
+<p><font size="1"> 1.7 - Exporting Graphs </font></p>
+<br><br><br>
+
+
+<h3 id="ExitSoft">Exit Software</h3>
+<p>Click File on the menu strip and select Exit. Alternatively, 
+use the shortcut key CTRL+X.</p>
+<img src="images/1.8.png" alt="Exiting the Program" style="width:700px;height:400px;">
+<p><font size="1"> 1.8 - Exiting the Program </font></p>
+<br><br><br>
+
+
+<h2 id="DataBits">Data Bits</h2>
+
+<p>When viewing packet details or the packet list, several characters 
+or lines may be highlighted. These highlights indicate important 
+information within the data for easy identification and are detailed below.</p>
+
+<div text align="center">
+<table border = "1px solid black">
+	<tr> 
+		<th>Data Feature</th>
+		<th>Highlight Colour</th>
+	</tr>
+	<tr>
+		<td text align="center">Erroneous Packet (Packet List)</td>
+		<td text align="center">Red</td>
+	</tr>
+	<tr>
+		<td text align="center">Erroneous Packet (Packet Details) </td>
+		<td text align="center">Red</td>
+	</tr>
+	<tr>
+		<td text align="center">Packet Sequence Number</td>
+		<td text align="center">Green</td>
+	</tr>
+</table>
+</div>
+
+<h2 id="Shortkeys">Shortcut Keys</h2>
+
+<p>The software contains a few shortcut keys to allow you to 
+browse and use the software quicker. Below is a table detailing 
+each one and their use.</p>
+
+<div text align="center">
+<table border = "1px solid black">
+	<tr> 
+		<th>Shortcut Key</th>
+		<th>Function</th>
+	</tr>
+	<tr> 
+		<th colspan="2" text align="center"><br>Basic Functionality<br><br></th>
+	</tr>
+	<tr>
+		<td text align="center">Ctrl+X</td>
+		<td text align="center">Exit the Program</td>
+	</tr>
+	<tr>
+		<td text align="center">Ctrl+O</td>
+		<td text align="center">Open a new File</td>
+	</tr>
+	<tr>
+		<th colspan="2" text align="center"><br>Graph Navigation<br><br></th>
+	</tr>
+	<tr>
+		<td text align="center">Alt+1</td>
+		<td text align="center">View Data Rate over time</td>
+	</tr>
+	<tr>
+		<td text align="center">Alt+2</td>
+		<td text align="center">View Error Locations in the file</td>
+	</tr>
+	<tr>
+		<td text align="center">Alt+3</td>
+		<td text align="center">View Unexpected Data within the file</td>
+	</tr>
+	<tr>
+		<td text align="center">Alt+4</td>
+		<td text align="center">View Packet Rate</td>
+	</tr>
+	<tr>
+		<th colspan="2" text align="center"><br>Help Functions<br><br></th>
+	</tr>
+	<tr>
+		<td text align="center">F12</td>
+		<td text align="center">Open the About Window</td>
+	</tr>
+	<tr>
+		<td text align="center">Alt+F12</td>
+		<td text align="center">Open the User Manual</td>
+	</tr>
+</table>
+</div>
+
+
+<div align = "center">
+<a href="#Home"><font size = "1">Home</font></a></li>
+<div>
+<p></p>
+</body>
+</html> 
